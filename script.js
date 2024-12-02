@@ -3,7 +3,7 @@ const emailjsUserID = '0z7siLdkNY5S-Uc9E'; // 从 EmailJS 获取
 
 // 初始化 EmailJS
 (function() {
-    emailjs.init(publicKey: emailjsUserID);
+    emailjs.init({publicKey: emailjsUserID});
 })();
 
 document.getElementById('supportForm').addEventListener('submit', function(event) {
